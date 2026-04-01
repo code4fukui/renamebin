@@ -9,7 +9,7 @@
 ## 使い方
 
 ```sh
-deno run --allow-read --allow-write --allow-net renamebin.js src.bin dst.bin textures
+deno run --allow-read --allow-write --allow-net https://code4fukui.github.io/renamebin/renamebin.js src.bin dst.bin textures
 ```
 
 引数:
@@ -26,6 +26,8 @@ deno run --allow-read --allow-write --allow-net renamebin.js src.bin dst.bin tex
 2. それらを `0____.png` のような ASCII 名に変更する
 3. 同じファイル名を `src.bin` 内で置換する
 4. 結果を `dst.bin` に書き出す
+
+必要ならスクリプトをローカルに置いて実行することもできます。
 
 ## 注意
 

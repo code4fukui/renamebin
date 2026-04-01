@@ -9,7 +9,7 @@ Rename non-ASCII `.png` filenames in a folder to ASCII names and rewrite the sam
 ## Usage
 
 ```sh
-deno run --allow-read --allow-write --allow-net renamebin.js src.bin dst.bin textures
+deno run --allow-read --allow-write --allow-net https://code4fukui.github.io/renamebin/renamebin.js src.bin dst.bin textures
 ```
 
 Arguments:
@@ -26,6 +26,8 @@ Running `renamebin.js` will:
 2. rename those files to ASCII names such as `0____.png`
 3. replace the same filenames inside `src.bin`
 4. write the result to `dst.bin`
+
+You can also download the scripts and run them locally if needed.
 
 ## Notes
 
