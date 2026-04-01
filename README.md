@@ -1,5 +1,7 @@
 # renamebin
 
+[日本語](./README.ja.md)
+
 Rename non-ASCII `.png` filenames in a folder to ASCII names and rewrite the same filenames inside a binary file.
 
 ## Requirement

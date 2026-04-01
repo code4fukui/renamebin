@@ -1,5 +1,7 @@
 # renamebin
 
+[English](./README.md)
+
 フォルダ内の非ASCIIな `.png` ファイル名を ASCII 名に変更し、同じ名前を含むバイナリも書き換えるツールです。
 
 ## 必要なもの
